@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Years needed to save an amount:</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br><a href="home.html"><-Back</a>
+    <h1>Calculate number of years needed to save an amount:</h1><br><br>
+
+    <div class="container">
+    
+        <label for="age">Age:</label>
+        <input type="number" id="age" class="textbox" placeholder="Your Age"><br>
+        
+        <label for="salary">Your Salary:</label>
+        <input type="number" id="salary" class="textbox" placeholder="salary"><br>
+        
+        <label for="desiredAmount">Desired Amount to Save:</label>
+        <input type="number" id="desiredAmount" class="textbox" placeholder="Desired Amount to Save"><br>
+        
+        <label for="savingPercentage">Percentage of Savings from Salary:</label>
+        <input type="number" id="savingPercentage" class="textbox" placeholder="Percentage of Savings from Salary"><br>
+        
+        <label for="raisePercentage">Percentage of Raise of Salary Each Year:</label>
+        <input type="number" id="raisePercentage" class="textbox" placeholder="Percentage of Raise of Salary Each Year"><br>
+    </div>
+
+    <div class="button-group">
+        <button onclick="calculateYears()" class="btn" id="calculate">Calculate</button>
+        <button onclick="clearForm2()" class="btn" id="clear">Clear</button>
+    </div>
+
+    <br>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
