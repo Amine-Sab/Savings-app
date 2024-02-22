@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Years to Assure Good Living</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br><a href="home.html"><-Back</a>
+    <h1>Calculate number of years to assure good living:</h1><br><br>
+<div class="container">
+    
+    <label for="savedAmount">Saved amount:</label>
+    <input type="number" id="savedAmount" class="textbox" placeholder="Saved Amount"><br>
+    
+    <label for="goodLivingSalary">Salary needed for a good living:</label>
+    <input type="number" id="goodLivingSalary" class="textbox" placeholder="Salary Necessary for Good Living"><br>
+    
+</div>
+<div class="button-group">
+    <button onclick="calculateYearsToGoodLiving()" class="btn" id="calculate">Calculate</button><br>
+    <button onclick="clearForm3()" class="btn" id="clear">Clear</button>
+</div>
+<br>
+<div id="result"></div>
+<script src="script.js"></script>
+</body>
+</html>
